@@ -1,0 +1,68 @@
+  /* Tours Section */
+  .tours {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .tour {
+    background: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .tour img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Customer Reviews Section */
+  .customer-reviews {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .review {
+    background:black;
+    border: 1px solid  rgb(144, 229, 238);
+    padding: 20px;
+  }
+
+  .review img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+
+  /* Travel Photos Section */
+  .travel-photos {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .travel-photo {
+    background: #ffffff;
+    border: 1px solid  rgb(144, 229, 238);
+    padding: 20px;
+    text-align: center;
+  }
+  .body2{
+    background-color: rgb(144, 229, 238);
+    color: aliceblue;
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Oswald', sans-serif;
+}
